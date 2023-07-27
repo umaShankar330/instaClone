@@ -1,0 +1,106 @@
+.like-img {
+  font-size: 15px;
+  margin: 0;
+}
+.like-img:hover {
+  color: red;
+}
+
+.liked {
+  font-size: 18px;
+  padding: 0;
+}
+
+.PostContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  border: 2px solid #d4d3d2;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.TopContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 18px;
+  padding: 10px;
+}
+.ProfilePic {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.Username {
+  margin-left: 10px;
+  color: black;
+}
+
+.Username:hover {
+  color: #babab8;
+}
+
+.PostImage {
+  width: 70w;
+  height: 480px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.BottomSection {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-left: 18px;
+  margin-bottom: 10px;
+}
+.IconsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 13px;
+  margin-top: 10px;
+}
+
+.IconBtn {
+  outline: none;
+  background: none;
+  border: none;
+  padding: 0;
+}
+.CommentUser {
+  margin: 0;
+}
+
+.Caption {
+  margin: 0;
+  margin: 0;
+  font-weight: 600;
+}
+
+.CommentsSection {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 7px;
+}
+
+.CommentRow {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 5px;
+}
+.CommentPara {
+  margin: 0;
+}
+
+.Time {
+  color: #bababa;
+  margin: 0;
+}
+
+/* link */
+.link {
+  text-decoration: none;
+}

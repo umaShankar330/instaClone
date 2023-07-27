@@ -1,0 +1,151 @@
+.link {
+  text-decoration: none;
+}
+
+.NavSectionContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  width: 100%;
+  border-bottom: 2px solid #d4d3d2;
+  background-color: white;
+}
+
+.NavBarContainer {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  justify-content: space-between;
+  padding: 20px 40px;
+  margin: 0;
+}
+
+.LogoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.NavLogo {
+  height: 30px;
+}
+/* @media screen and (max-width: 768px) {
+    height: 25px;
+    width: 110px;
+  } */
+.LogoTitle {
+  color: #262626;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.NavItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.SearchContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.SearchInput {
+  height: 28px;
+  flex-shrink: 0;
+  outline: none;
+  border-radius: 3px;
+  padding-left: 10px;
+  border: 1px solid #dbdbdb;
+  background: #fafafa;
+}
+
+.SearchBtn {
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #909090;
+  padding: 0px 15px;
+}
+
+.ExitIcon {
+  border: none;
+  background-color: transparent;
+  color: black;
+  outline: none;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+}
+
+/* export const ExitIcon = styled.button`
+ 
+  color: ${props => (props.isDark ? 'white' : null)};
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+` */
+
+.ExitBtn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.LogoutBtn {
+  height: 30px;
+  width: 100px;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  color: white;
+}
+
+.PopupContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 30px;
+  background-color: black;
+}
+.PopupText {
+  color: white;
+}
+.PopupBtnContainer {
+  display: flex;
+}
+.CloseBtn {
+  height: 30px;
+  width: 100px;
+  outline: none;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  margin-right: 15px;
+}
+
+.ConfirmBtn {
+  height: 30px;
+  width: 100px;
+  outline: none;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .logoutIcon {
+    display: none;
+  }
+  .ExitIcon {
+    display: none;
+  }
+}

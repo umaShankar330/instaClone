@@ -1,0 +1,28 @@
+.no-search-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+}
+.no-search-img {
+  width: 80%;
+}
+.no-search-title {
+  font-size: 25px;
+  font-weight: 500;
+}
+.no-search-para {
+  color: #919492;
+}
+.results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+  width: 100%;
+}
